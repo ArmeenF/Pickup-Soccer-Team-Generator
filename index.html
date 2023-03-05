@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pickup Soccer Team Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Goalkeepers Input Text Fields -->
+    <div>
+        <label for="goalkeeper1">Goalkeeper 1:</label>
+        <input type="text" id="goalkeeper1">
+    </div>
+    <div>
+        <label for="goalkeeper2">Goalkeeper 2:</label>
+        <input type="text" id="goalkeeper2">
+    </div>
+    <div>
+        <label for="goalkeeper3">Goalkeeper 3:</label>
+        <input type="text" id="goalkeeper3">
+    </div>
+    <div>
+        <label for="goalkeeper4">Goalkeeper 4:</label>
+        <input type="text" id="goalkeeper4">
+    </div>
+    <button onclick="randomizeGoalkeepers()">Randomize Goalkeepers</button>
+
+
+    <!-- Goalkeepers Output Text Fields -->
+    <h2>Team 1 Goalkeepers:</h2>
+    <ul id="team1Goalkeepers"></ul>
+
+    <h2>Team 2 Goalkeepers:</h2>
+    <ul id="team2Goalkeepers"></ul>
+
+    <!-- Scripts -->
+    <script src="index.js"></script>
+</body>
+
+</html>
